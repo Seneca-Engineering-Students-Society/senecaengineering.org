@@ -1,3 +1,6 @@
 # Hugo and Blowfish
 public/
 resources/
+
+# others
+.hugo_build.lock
