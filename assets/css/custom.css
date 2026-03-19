@@ -1,0 +1,142 @@
+/* GLOBAL LEFT ALIGNMENT FOR ALL CONTENT */
+* {
+  text-align: left !important;
+}
+
+body, html {
+  text-align: left !important;
+}
+
+.prose {
+  text-align: left !important;
+}
+
+article, article * {
+  text-align: left !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left !important;
+}
+
+p {
+  text-align: left !important;
+}
+
+ul, ol, li {
+  text-align: left !important;
+}
+
+blockquote {
+  text-align: left !important;
+}
+
+table, tr, td, th {
+  text-align: left !important;
+}
+
+.prose-base,
+.max-w-prose,
+.article-content,
+.container,
+.content,
+div {
+  text-align: left !important;
+}
+
+/* Centre only these exceptions */
+.hero, .center, .text-center {
+  text-align: center !important;
+}
+
+/* -------------------------------------------------------
+   Full-width events page layout
+------------------------------------------------------- */
+
+/* Remove the prose max-width cap so events content spans the full article width */
+.prose .events-container,
+.events-container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Allow the article/prose wrapper itself to go full width when events-container is present */
+.prose:has(.events-container),
+article:has(.events-container) {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Ensure grid layouts inside events-container are not squeezed */
+.events-container div[style*="grid"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
+
+/* -------------------------------------------------------
+   Image sizing
+------------------------------------------------------- */
+
+/* Standalone article images */
+article img {
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Images inside grid cells — no extra margins */
+article div[style*="grid"] img,
+.events-container div[style*="grid"] img {
+  display: block;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* -------------------------------------------------------
+   Contrast overrides
+------------------------------------------------------- */
+
+:root {
+  --color-text: #0a0a0a;
+  --color-text-secondary: #1a1a1a;
+}
+
+.dark:root {
+  --color-text: #ffffff;
+  --color-text-secondary: #e0e0e0;
+}
+
+/* -------------------------------------------------------
+   Mobile: collapse two-column grids to single column
+------------------------------------------------------- */
+
+@media (max-width: 640px) {
+  .events-container div[style*="grid-template-columns: 1fr 1fr"],
+  .events-container div[style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* -------------------------------------------------------
+   Nuclear max-width override — beats Tailwind specificity
+------------------------------------------------------- */
+
+html body article .prose.max-w-prose,
+html body .max-w-prose,
+html body article.max-w-prose,
+html body .prose {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Also target Blowfish's min-w-0 wrapper inside article */
+html body article div.min-w-0 {
+  max-width: 100% !important;
+  width: 100% !important;
+}
