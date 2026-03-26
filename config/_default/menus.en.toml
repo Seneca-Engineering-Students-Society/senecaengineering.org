@@ -24,10 +24,10 @@
   name = "Events"
   pageRef = "/events/"
   weight = 3
-
+  
 [[main]]
-  name = "Team"
-  pageRef = "/team/"
+  name = "Projects"
+  pageRef = "/projects/"
   weight = 4
 
 [[main]]
@@ -35,20 +35,11 @@
   pageRef = "/tutorials/"
   weight = 5
 
-[[main]]
-  name = "Blog"
-  pageRef = "/blog/"
-  weight = 6
 
 [[main]]
   name = "Join"
   pageRef = "/join/"
   weight = 7
-
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
-#  weight = 10
 
 #[[main]]
 #  name = "Parent"
