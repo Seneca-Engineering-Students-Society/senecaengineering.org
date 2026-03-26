@@ -13,10 +13,10 @@ Whether you're connecting IoT devices to campus WiFi, building your first microc
 
 ## Featured Tutorials
 
-Browse through our collection of guides, or [start with the basics](#). Have a tutorial you'd like to share? [Get in touch with us](/contact)!
+Browse through our collection of guides below. Have a tutorial you'd like to share? [Get in touch with us](/contact)!
 
 ## Want to Contribute?
 
 Have you solved an interesting engineering problem or learned something cool? We'd love to feature your tutorial! Share your knowledge with the SESS community and help your peers succeed.
 
-Contact us at senecaengineering@senecacollege.ca to contribute a tutorial.
+[Contact us](/contact) to submit a tutorial.

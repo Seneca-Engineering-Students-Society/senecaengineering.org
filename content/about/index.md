@@ -3,55 +3,70 @@ title: "About SESS"
 publishDate: "2026-03-19"
 ---
 
+<div id="sess-slideshow" style="position:relative;width:100%;border-radius:12px;margin-bottom:2rem;aspect-ratio:4/3;overflow:hidden;background:transparent;">
+  <img id="sess-slide-0" src="/images/frosh-event.JPG" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;opacity:1;transition:opacity 0.8s ease;">
+  <img id="sess-slide-1" src="/images/ospe-event.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity 0.8s ease;">
+  <img id="sess-slide-2" src="/images/sec-challenge-programming.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity 0.8s ease;">
+  <img id="sess-slide-3" src="/images/sec-challenge-reengineering.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity 0.8s ease;">
+</div>
+<script>
+(function(){
+  var slides = [
+    document.getElementById('sess-slide-0'),
+    document.getElementById('sess-slide-1'),
+    document.getElementById('sess-slide-2'),
+    document.getElementById('sess-slide-3')
+  ];
+  var i = 0;
+  setInterval(function(){
+    slides[i].style.opacity = '0';
+    i = (i + 1) % slides.length;
+    slides[i].style.opacity = '1';
+  }, 3000);
+})();
+</script>
+
 # About Seneca Engineering Students' Society
 
-## Our Mission
+Seneca's Engineering Student Society (SESS) is a club for students of Engineering programs at Seneca. SESS promotes the study, interest, and enjoyment of engineering. In SESS, we exchange ideas, share cutting-edge technologies, work on projects together, and learn together.
 
-The Seneca Engineering Students' Society is dedicated to fostering a vibrant, inclusive community of engineering students and professionals. We provide opportunities for growth, connection, and excellence through events, competitions, and collaborative projects.
+## Member Benefits
 
-## What is SESS?
+Benefits of membership in SESS include:
 
-SESS is the official student organization representing engineering students at Seneca College. We serve as a bridge between:
+1. Students' social events
+2. Leadership opportunities
+3. Access to webinars, guest speakers, and training
+4. Potential access to project funding
+5. Competing in provincial and national competitions and hackathons
+6. A voice in shaping the future of engineering education (see [cfes.ca](https://cfes.ca/))
 
-- **Students** - Connecting peers, providing mentorship, and creating opportunities
-- **Industry** - Networking with professionals and companies looking to hire engineers
-- **Provincial & National Communities** - Linking Seneca engineers to ESSCO (Ontario-level) and CFES (national-level) events and opportunities
-- **Campus Leadership** - Advocating for engineering students' needs and interests
+## Events & Activities
 
-## Our Values
+Be the first to know about what we have planned. Stay connected through our [Discord](https://discord.gg/KVvrrJ7J) and [social media](https://www.instagram.com/seneca.engsoc?igsh=MTA2dmczbjZ0N3MzOQ==) for upcoming events and activities.
 
-**Excellence** - We strive for quality in everything we do, from event organization to community impact.  
-**Inclusivity** - Engineering is for everyone. We welcome students of all backgrounds, experiences, and perspectives.  
-**Innovation** - We embrace creative problem-solving and new ideas.  
-**Community** - We build strong relationships and support one another's growth.  
-**Professional Development** - We prepare members for successful careers in engineering.
+## Exclusive Resources
 
-## Our Community
-
-With members across all engineering programs at Seneca College, SESS represents a diverse group of students:
-
-- Software Engineering students
-- Civil Engineering Technology students  
-- Mechanical Engineering Technology students
-- Electronics Engineering Technology students
-- And more!
+Get our newsletter and stay in the loop on workshops, talks, and opportunities exclusive to SESS members.
 
 ## Connections Beyond Seneca
 
 As members of the broader engineering student community, SESS connects to:
 
-- **ESSCO** (Engineering Students' Societies' Council of Ontario) - 24+ engineering schools across Ontario
-- **CFES** (Canadian Federation of Engineering Students) - Engineering students across Canada
+- **ESSCO** - Engineering Students' Societies' Council of Ontario — 24+ engineering schools across Ontario
+- **CFES** - Canadian Federation of Engineering Students — engineering students across Canada
 - **Industry Partners** - Leading companies in engineering, technology, and consulting
-- **Professional Organizations** - PEO (Professional Engineers Ontario), OSPE (Ontario Society of Professional Engineers), and others
 
-## Get Involved
+---
 
-Whether you want to attend events, help organize, mentor newer members, or lead the organization, there's a role for you. 
+## Our Team
 
-- 👥 **Attend Events** - Meet peers, learn new skills, expand your network
-- 🤝 **Volunteer** - Help organize events and activities
-- 👔 **Take on Leadership** - Run for an exec position or committee role
-- 💬 **Share Ideas** - Suggest new events, workshops, or initiatives
+| Name | Role |
+|------|------|
+| Jasleen Kaur | President |
+| Crissha Kaye Salaritan | Vice-President |
+| Dipak Prasad Kushwaha | Treasurer |
 
-**Ready to get started?** [Contact us](/contact) or join our [Discord server](#) 
+Interested in joining the team? We're always looking for passionate student leaders — volunteers, committee members, and exec candidates are welcome!
+
+**[Get Involved →](/join)**
