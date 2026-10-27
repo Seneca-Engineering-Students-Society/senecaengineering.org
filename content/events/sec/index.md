@@ -8,7 +8,15 @@ showReadingTime: false
 showWordCount: false
 ---
 
-<img src="/images/SEC_2026.jpeg" alt="SEC 2026 competition poster" width="400">
+<div style="text-align: center; margin: 30px auto;">
+  <img
+    src="/images/SEC_2026.jpeg"
+    alt="SEC 2026 competition poster"
+    style="width: 400px; max-width: 100%; border: 3px solid #e50914; border-radius: 12px; box-shadow: 0 0 15px rgba(229, 9, 20, 0.6); transition: box-shadow 0.3s ease;"
+    onmouseover="this.style.boxShadow='0 0 30px rgba(255, 0, 0, 0.9)'"
+    onmouseout="this.style.boxShadow='0 0 15px rgba(229, 9, 20, 0.6)'"
+  >
+</div>
 
 ## About SEC 2026
 
