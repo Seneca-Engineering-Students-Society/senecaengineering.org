@@ -45,4 +45,4 @@ This competition is prepared entirely outside the realm of the OEC. Competitors 
 
 ## Registration
 
-The registration link will be added once it is available.
+https://docs.google.com/forms/d/e/1FAIpQLSfdyx4qan3jylIymZ1N46NgRlVCf_PBbj-9kPzBDTaX4vyKDw/viewform?usp=publish-editor
