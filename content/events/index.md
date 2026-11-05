@@ -38,7 +38,7 @@ Celebrating engineering excellence! This event features engineering activities, 
 
 ### Seneca Engineering Competition
 
-[View SEC 2026 details and registration](/events/sec/)
+[View SEC 2026 details and registration](/events/sec/index.md)
 
 **When:** Fall Semester  
 **Where:** Newnham Campus
