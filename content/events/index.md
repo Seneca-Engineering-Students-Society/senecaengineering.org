@@ -37,6 +37,9 @@ The Seneca Engineering Students' Society organizes events throughout the year, f
 Celebrating engineering excellence! This event features engineering activities, project demos, and showcases the impact of engineering in our world. Open to all students and faculty.
 
 ### Seneca Engineering Competition
+
+[View SEC 2026 details and registration](/events/sec/)
+
 **When:** Fall Semester  
 **Where:** Newnham Campus
 
