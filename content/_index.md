@@ -16,7 +16,7 @@ We organize and participate in a wide range of activities throughout the year:
 
 - **Local Events** - Frosh events, social mixers, competitions, and networking opportunities
 - **Technical Workshops** - Coding workshops, design challenges, and hands-on learning sessions
-- **Competitions** - Seneca Engineering Competition leading to provincial and national competitions
+- **Competitions** - [Seneca Engineering Competition](/events/sec/) leading to provincial and national competitions
 - **Provincial & National Forums** - ESSCO and CFES events connecting you with engineers across Ontario and Canada
 - **Community Building** - Creating a supportive network of peers, mentors, and industry professionals
 

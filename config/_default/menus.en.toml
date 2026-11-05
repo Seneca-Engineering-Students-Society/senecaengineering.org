@@ -22,8 +22,15 @@
 
 [[main]]
   name = "Events"
+  identifier = "events"
   pageRef = "/events/"
   weight = 3
+
+[[main]]
+  name = "SEC"
+  parent = "events"
+  pageRef = "/events/sec/"
+  weight = 1
   
 [[main]]
   name = "Projects"
