@@ -26,5 +26,5 @@ Whether you're a first-year student or an experienced technologist, there's a pl
 
 **Next Steps:**
 - Check out our [upcoming events](/events)
-- [Join our Discord](https://discord.gg/session)
+- [Join our Discord](https://discord.gg/YbvF7hCQT)
 - [Contact us](/contact) to get involved
