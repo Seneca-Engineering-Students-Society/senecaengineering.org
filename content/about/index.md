@@ -63,9 +63,9 @@ As members of the broader engineering student community, SESS connects to:
 
 | Name | Role |
 |------|------|
-| Jasleen Kaur | President |
-| Crissha Kaye Salaritan | Vice-President |
-| Dipak Prasad Kushwaha | Treasurer |
+| Amirali Sahamianmoghaddam | President |
+| Khuong Le | Vice-President |
+| Shay Symonette | Treasurer |
 
 Interested in joining the team? We're always looking for passionate student leaders — volunteers, committee members, and exec candidates are welcome!
 
